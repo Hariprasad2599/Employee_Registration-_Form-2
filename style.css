@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.dashboard {
+    width: 90%;
+    margin: 0 auto;
+    padding: 25px;
+    border: 1px solid #0b0a0a;
+    margin-top: 15px;
+    align-items: center;
+    background-color: rgb(232, 235, 238);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    
+    color: rgb(3, 3, 3);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    margin: 15px;
+}
+.compressed-image {
+    max-width: 70px; 
+    height: auto;
+}
+
+
+input[type="checkbox"],
+label,
+input[type="submit"],
+a {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+
+input[type="checkbox"],
+label {
+    margin-right: 20px; 
+}
